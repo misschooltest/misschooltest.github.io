@@ -13,16 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Business Jekyll Theme
+title: M.I.S MODEL BALIKA INTER COLLEGE
 email: your-email@example.com
 description: > # this means to ignore newlines until "baseurl:"
-  Yet another Jekyll theme. It is designed for business purpose and ported by 
-  Melvin Ch'ng.
+  This is the website of M.I.S MODEL BALIKA INTER COLLEGE, KHURJA - 203131, DIST. BULANDSHAHR.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Company Information
-company_name: Johns, Smith & Associates
+company_name: M.I.S MODEL BALIKA INTER COLLEGE
 address_line: Via Ludovisi 39-45, Rome, 54267, Italy
 telephone_number: 1.800.245.356
 fax_number: 1.800.245.357
