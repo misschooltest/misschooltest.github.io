@@ -1,11 +1,12 @@
 ---
 layout: default_style
-permalink: /blog
+permalink: /news
 published: true
 ---
 <!-- Main Container -->
 <div id="banners"></div>
 <div class="container">
+  <h1 class="blog-title"><b> News and Announcements</b> </h1>
   {% for post in site.posts %}
   <div class="blog-post">
       <h1 class="blog-title">
@@ -13,7 +14,7 @@ published: true
         {{ post.title }}
       </h1>
       <br>
-      <img src="assets/img/slider/{{ post.picture }}" alt="Feature-img" align="right" width="100%" class="blog-image">
+      <a href="{{ post.href}}"><img src="assets/img/slider/{{ post.picture }}" alt="Feature-img" align="right" width="100%" class="blog-image"></a>
       <br>
       <p>{{ post.description }}</p>
       <span class="badge">{{ post.date | date: '%B %d, %Y' }}</span>
