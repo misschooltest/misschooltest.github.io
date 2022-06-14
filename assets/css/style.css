@@ -455,6 +455,10 @@ p.blog-text{
     padding-top: 40px;
     padding-bottom: 40px;
   }
+  .services-section .services-header {
+    margin-left: 50px;
+    margin-right: 50px;
+  }  
   .services-section .services-group {
     margin-bottom: 50px;
   }
