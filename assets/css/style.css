@@ -456,8 +456,8 @@ p.blog-text{
     padding-bottom: 40px;
   }
   .services-section .services-header {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
   }  
   .services-section .services-group {
     margin-bottom: 50px;
@@ -677,6 +677,14 @@ footer h3 {
 .blockquote-box.blockquote-warning .square{background-color:#F0AD4E;color:#FFF}
 .blockquote-box.blockquote-danger{border-color:#D43F3A}
 .blockquote-box.blockquote-danger .square{background-color:#D9534F;color:#FFF}
+
+@media (max-width: 767px) {
+
+  .blockquote-box .square {
+    width: 200px;
+  }
+
+}
 
 /*
 * ==========================================================================
