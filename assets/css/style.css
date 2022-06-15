@@ -666,7 +666,7 @@ footer h3 {
 
 .glyphicon-lg{font-size:3em}
 .blockquote-box{border-right:5px solid #E6E6E6;margin-bottom:25px}
-.blockquote-box .square{width:400px;min-height:50px;margin-right:22px;text-align:center!important;background-color:#E6E6E6;padding:20px 0}
+.blockquote-box .square{width:520px;min-height:50px;margin-right:22px;text-align:center!important;background-color:#E6E6E6;padding:20px 0}
 .blockquote-box.blockquote-primary{border-color:#357EBD}
 .blockquote-box.blockquote-primary .square{background-color:#428BCA;color:#FFF}
 .blockquote-box.blockquote-success{border-color:#4CAE4C}
@@ -678,14 +678,14 @@ footer h3 {
 .blockquote-box.blockquote-danger{border-color:#D43F3A}
 .blockquote-box.blockquote-danger .square{background-color:#D9534F;color:#FFF}
 
-.blockquote-box .square .img{width:"350px"; height:"300"}
+.blockquote-box .square .image{width:480px; height:300px}
 
 @media (max-width: 767px) {
   .blockquote-box .square {
     width: 350px;
   }
 
-  .blockquote-box .square .img{
+  .blockquote-box .square .image{
     width: 300px;
   }
 
